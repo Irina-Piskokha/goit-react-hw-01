@@ -1,0 +1,30 @@
+.table {
+  margin-bottom: 20px;
+  margin-left: 20px;
+  font-size: 16px;
+  border-collapse: collapse;
+}
+
+.title {
+  background-color: rgb(39, 29, 104);
+  color: aliceblue;
+}
+
+.itemTh {
+  padding: 5px 70px;
+  border: 1px solid #000;
+}
+
+.item {
+  text-align: center;
+}
+
+.item:nth-child(2n) {
+  background-color: rgba(209, 202, 255, 0.4);
+}
+
+.itemTd {
+  border: 1px solid #000;
+  text-transform: capitalize;
+  padding: 2px 70px;
+}
